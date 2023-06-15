@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header />
+        <Header/>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/create-nft" component={CreateNFT} />
